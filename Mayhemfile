@@ -1,0 +1,5 @@
+project: jbgreenh/cpp-base64
+target: fuzz64
+
+cmds:
+  - cmd: /fuzz64
