@@ -2,4 +2,4 @@ project: jbgreenh/cpp-base64
 target: fuzz64
 
 cmds:
-  - cmd: /fuzz64
+  - cmd: LD_PRELOAD=./libb64c.so ./fuzz64
